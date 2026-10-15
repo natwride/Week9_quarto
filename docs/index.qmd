@@ -3,7 +3,10 @@ title: "Quarto Doc"
 author: "Natalie Wride"
 format: html
 editor: visual
+toc: true
+theme: cosmo
 ---
+## First Quarto Project 
 
 ## Quarto
 
