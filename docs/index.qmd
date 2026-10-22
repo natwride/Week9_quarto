@@ -7,60 +7,70 @@ editor: visual
 toc: true
 number-sections: true
 theme: cosmo
+bibliography: references.bib
 ---
+
 # Section headers
+
 ## Headers
+
 ### Level 3 Header
-#### Level 4 
+
+#### Level 4
 
 # Text formatting
+
 2+2+2 = `{r} 2+2+2`
 
-- Item 1
-- Item 2
-  - sub-item 1
-1. First
-2. Second
-    i) mini
+-   Item 1
+-   Item 2
+    -   sub-item 1
+
+1.  First
+2.  Second
+    i)  mini
     ii) mini
-3. Third
+3.  Third
 
 [Quarto Doc](https://quarto.org)
 
 # Tabset
 
-::: panel-tabset
+:::: panel-tabset
 ## Tab 1
+
 ## Tab 2
+
 ::: panel-tabset
 # Nest Tab1
+
 # Nest Tab2
 :::
-::: 
+::::
 
 # Another Panel
 
-::: panel-tabset
-
+:::: panel-tabset
 ## first tab
+
 first tab text
 
 ## second tab
 
-:::: panel-tabset
-
+::: panel-tabset
 ### first child
+
 sample text
 
 ### second child
+
 second texting
+:::
 ::::
 
-:::
-
 # Code Libraries
-do this under the yaml if bringing in any data since doc is ready top to bottom
-This means options syntax for the r code (#|)
+
+do this under the yaml if bringing in any data since doc is ready top to bottom This means options syntax for the r code (#\|)
 
 ```{r}
 #| label: setup
@@ -79,6 +89,67 @@ thesis_data <- read_csv("../data/Scallop_Aquaculture_Field_Data_Sheet.csv")
 head(thesis_data)
 ```
 
+# Figs and captions
+
+```{r}
+#| label: fig-mpg
+#| fig-cap: "Scatterplot of car weight vs mpg"
+
+ggplot(my_data, aes(x = wt, y = mpg)) +
+  geom_point()+
+  theme_minimal()+
+  labs(x = "weight", y = "Miles per gallon")
+
+```
+
+::: callout-tip
+## Tip
+
+As shown in @fig-mpg, heavier cars typically have lower mpg.
+:::
+
+# Table outputs
+
+```{r}
+#| label: tbl-summary
+#| tbl-cap: "Average mpg by cyliner count"
+
+
+my_data %>% 
+   group_by(cyl) %>% 
+   summarise(avg_mpg = mean(mpg)) %>% 
+  kable() #kable() makes a clean markdown table
+```
+
+# Images
+
+<!-- ![](image){.lightbox fig-align= "center" width= "50%"} -->
+
+# LaTex
+
+$y = mx + b$
+
+$$E = mc^2$$ $$
+\frac{1.5}{2.3}
+$$ $$
+Y = X_1 + X_2
+$$
+
+$$
+Y = X^1 + X^2
+$$ $$
+\sqrt{p^2}
+$$ $$
+x_1 = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$ $$
+Y \sim X\beta_0 + X\beta_1 + \epsilo
+$$ $\alpha$
+
+# References - Bibliography
+
+Test words: [@rupp2004]
+
+Rupp et al. @rupp2004
 
 # Quarto
 

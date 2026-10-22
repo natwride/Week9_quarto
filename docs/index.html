@@ -57,7 +57,27 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="index_files/libs/clipboard/clipboard.min.js"></script>
@@ -73,6 +93,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="index_files/libs/bootstrap/bootstrap-4d7f0bce1131f3e5f9547cd857cfbfc8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -95,9 +144,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#tabset" id="toc-tabset" class="nav-link" data-scroll-target="#tabset"><span class="header-section-number">3</span> Tabset</a></li>
   <li><a href="#another-panel" id="toc-another-panel" class="nav-link" data-scroll-target="#another-panel"><span class="header-section-number">4</span> Another Panel</a></li>
   <li><a href="#code-libraries" id="toc-code-libraries" class="nav-link" data-scroll-target="#code-libraries"><span class="header-section-number">5</span> Code Libraries</a></li>
-  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto"><span class="header-section-number">6</span> Quarto</a>
+  <li><a href="#figs-and-captions" id="toc-figs-and-captions" class="nav-link" data-scroll-target="#figs-and-captions"><span class="header-section-number">6</span> Figs and captions</a></li>
+  <li><a href="#table-outputs" id="toc-table-outputs" class="nav-link" data-scroll-target="#table-outputs"><span class="header-section-number">7</span> Table outputs</a></li>
+  <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images"><span class="header-section-number">8</span> Images</a></li>
+  <li><a href="#latex" id="toc-latex" class="nav-link" data-scroll-target="#latex"><span class="header-section-number">9</span> LaTex</a></li>
+  <li><a href="#references---bibliography" id="toc-references---bibliography" class="nav-link" data-scroll-target="#references---bibliography"><span class="header-section-number">10</span> References - Bibliography</a></li>
+  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto"><span class="header-section-number">11</span> Quarto</a>
   <ul class="collapse">
-  <li><a href="#running-code" id="toc-running-code" class="nav-link" data-scroll-target="#running-code"><span class="header-section-number">6.1</span> Running Code</a></li>
+  <li><a href="#running-code" id="toc-running-code" class="nav-link" data-scroll-target="#running-code"><span class="header-section-number">11.1</span> Running Code</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -253,14 +307,117 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </section>
-<section id="quarto" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Quarto</h1>
+<section id="figs-and-captions" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Figs and captions</h1>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(my_data, <span class="fu">aes</span>(<span class="at">x =</span> wt, <span class="at">y =</span> mpg)) <span class="sc">+</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>()<span class="sc">+</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()<span class="sc">+</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"weight"</span>, <span class="at">y =</span> <span class="st">"Miles per gallon"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div id="fig-mpg" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-mpg-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-mpg-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mpg-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Scatterplot of car weight vs mpg
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>As shown in <a href="#fig-mpg" class="quarto-xref">Figure&nbsp;1</a>, heavier cars typically have lower mpg.</p>
+</div>
+</div>
+</section>
+<section id="table-outputs" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Table outputs</h1>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>my_data <span class="sc">%&gt;%</span> </span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>   <span class="fu">group_by</span>(cyl) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>   <span class="fu">summarise</span>(<span class="at">avg_mpg =</span> <span class="fu">mean</span>(mpg)) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>() <span class="co">#kable() makes a clean markdown table</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div id="tbl-summary" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Average mpg by cyliner count
+</figcaption>
+<div aria-describedby="tbl-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: right;">cyl</th>
+<th style="text-align: right;">avg_mpg</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">26.66364</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">19.74286</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">15.10000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+<section id="images" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Images</h1>
+<!-- ![](image){.lightbox fig-align= "center" width= "50%"} -->
+</section>
+<section id="latex" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> LaTex</h1>
+<p><span class="math inline">\(y = mx + b\)</span></p>
+<p><span class="math display">\[E = mc^2\]</span> <span class="math display">\[
+\frac{1.5}{2.3}
+\]</span> <span class="math display">\[
+Y = X_1 + X_2
+\]</span></p>
+<p><span class="math display">\[
+Y = X^1 + X^2
+\]</span> <span class="math display">\[
+\sqrt{p^2}
+\]</span> <span class="math display">\[
+x_1 = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]</span> <span class="math display">\[
+Y \sim X\beta_0 + X\beta_1 + \epsilo
+\]</span> <span class="math inline">\(\alpha\)</span></p>
+</section>
+<section id="references---bibliography" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> References - Bibliography</h1>
+<p>Test words: <span class="citation" data-cites="rupp2004">(<a href="#ref-rupp2004" role="doc-biblioref">Rupp and Parsons 2004</a>)</span></p>
+<p>Rupp et al. <span class="citation" data-cites="rupp2004">Rupp and Parsons (<a href="#ref-rupp2004" role="doc-biblioref">2004</a>)</span></p>
+</section>
+<section id="quarto" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> Quarto</h1>
 <p>Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p>
-<section id="running-code" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="running-code"><span class="header-section-number">6.1</span> Running Code</h2>
+<section id="running-code" class="level2" data-number="11.1">
+<h2 data-number="11.1" class="anchored" data-anchor-id="running-code"><span class="header-section-number">11.1</span> Running Code</h2>
 <p>When you click the <strong>Render</strong> button a document will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 2</code></pre>
 </div>
@@ -272,10 +429,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>The <code>echo: false</code> option disables the printing of code (only output is displayed).</p>
+
 </section>
 </section>
 
-</main>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-rupp2004" class="csl-entry" role="listitem">
+Rupp, Guilherme S, and G.Jay Parsons. 2004. <span>“Effects of Salinity and Temperature on the Survival and Byssal Attachment of the Lion’s Paw Scallop Nodipecten Nodosus at Its Southern Distribution Limit.”</span> <em>Journal of Experimental Marine Biology and Ecology</em> 309 (2): 173–98. <a href="https://doi.org/10.1016/j.jembe.2004.03.018">https://doi.org/10.1016/j.jembe.2004.03.018</a>.
+</div>
+</div></section></div></main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
