@@ -1,0 +1,83 @@
+Year,Month,Island,Date,Location,Depth,Transect,Sampling type,Depth (m),Recorder,Spp,Length,Width,Height,%Dis,Dis ID,%BL Only,%BL/PA,BL,%Old,%Recent,Damselfish,#Damselfish,Corallivore,#Corallivore,PREDATION,%Predation,MACA,%MACA,CYAN,%CYANO,CLIONA,%CLIONA,SPO,%SPO,OTHER,%OTHER,Notes
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I3,Permanent ,,"Adina, Savanna",OFAV,4,2,2,0,,,0,,10,10,,,,,N/A,,,,,,,,,,,,Sponges and MacroAlgae 
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I3,Permanent ,,"Adina, Savanna",OSTO,4,2,4,0,,,10,,20,70,,,,,N/A,,,,,,,,,,,,Sponges and MacroAlgae 
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I3,Permanent ,,"Adina, Savanna",OFRA,8,10,10,n/a,,,n/a,,n/a,n/a,,,,,Pale,,,,,,,,,,,,Sponges and MacroAlgae 
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I3,Permanent ,,"Adina, Savanna",OFRA,15,40,5,0,,,20,,40,20,,,,,Pale,,,,,,,,,,,,Sponges and MacroAlgae 
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I3,Permanent ,,"Adina, Savanna",OFRA,45,38,53,0,,,30,,65,20,,,,,Pale,,,,,,,,,,,,"Sponges, Damsel and MacroAlgae "
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I3,Permanent ,,"Adina, Savanna",OANN,42,40,20,0,,,10,,65,20,,,,,Pale,,,,,,,,,,,,"Sponges, Damsel and MacroAlgae "
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I3,Permanent ,,"Adina, Savanna",OFAV,72,33,40,0,,,50,,30,20,,,,,Pale,,,,,,,,,,,,"Sponges, Damsel and MacroAlgae "
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I3,Permanent ,,"Adina, Savanna",OFAV,4,5,10,0,,,60,,40,20,,,,,Bleach,,,,,,,,,,,,"Sponges, Damsel and MacroAlgae "
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I3,Permanent ,,"Adina, Savanna",OFAV,3,4,2,0,,,10,,20,10,,,,,Pale,,,,,,,,,,,,"Sponges, Damsel and MacroAlgae "
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I3,Permanent ,,"Adina, Savanna",OFRA,40,23,46,0,,,50,,80,20,,,,,Pale,,,,,,,,,,,,"Sponges, Damsel and MacroAlgae "
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I1,Permanent ,,Adam and Samuel,PAST,37,31,6,0,,,0,,10,0,,,,,,,,,,,,,,,,,
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I1,Permanent ,,Adam and Samuel,PAST,38,28,4,0,,,0,,5,0,,,,,,,,,,,,,,,,,
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I1,Permanent ,,Adam and Samuel,OFAV,48,10,40,0,,,5,,0,0,,,,,,,,,,,,,,,,,
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I1,Permanent ,,Adam and Samuel,OANN,64,30,5,0,,,0,,20,0,,,,,,,,,,,,,,,,,
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I1,Permanent ,,Adam and Samuel,OANN,6,4,6,0,,,20,,0,15,,,,,Gastropod,,,,,,,,,,,,
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I1,Permanent ,,Adam and Samuel,OANN,45,42,40,0,,,0,,50,0,,,,,,,,,,,,,,,,,
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I1,Permanent ,,Adam and Samuel,PAST,8,4,6,0,,,0,,10,0,,,,,Predation,,,,,,,,,,,,bites
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I1,Permanent ,,Adam and Samuel,PAST,8,5,10,0,,,0,,0,0,,,,,,,,,,,,,,,,,
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Deep,D3,Permanent ,,Adam and Samuel,SSID,18,14,4,0,,,0,,20,0,,,,,,,,,,,,,,,,,
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Deep,D3,Permanent ,,Adam and Samuel,PASt,3,2,2,0,,,0,,15,0,,,,,,,,,,,,,,,,,
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Deep,D3,Permanent ,,Adam and Samuel,PAST,30,15,3,0,,,0,,35,0,,,,,,,,,,,,,,,,,
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Deep,D3,Permanent ,,Adam and Samuel,OFAV,35,15,5,0,,,0,,10,0,,,,,,,,,,,,,,,,,
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Deep,D3,Permanent ,,Adam and Samuel,PAST,45,15,5,0,,,0,,5,0,,,,,,,,,,,,,,,,,
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Deep,D3,Permanent ,,Adam and Samuel,PAST,5,3,4,0,,,0,,0,0,,,,,,,,,,,,,,,,,
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Deep,D3,Permanent ,,Adam and Samuel,PAST,50,35,10,0,,,0,,30,0,,,,,,,,,,,,,,,,,
+2025,10,STT ,10/29/2025,Brewers Bay Reef Edge MMES,Deep,D3,Permanent ,,Adam and Samuel,PAST,9,7,5,0,,,0,,0,0,,,,,snail,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,PAST,5,3,0.5,0,,,2,,0,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,OFRA,60,27,30,0,,,0,,15,0,,,,,Bites,,,,,,,,,,,,Damselfish
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,OFAV,5,3,6,0,,,0,,10,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,PAST,3,2,0.5,0,,,0,,0,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,PAST,4,4,1,0,,,1,,0,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,O. spp,7,12,23,0,,,0,,80,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,PAST,20,4,4,0,,,10,,0,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,PAST,12,4,2,0,,,4,,0,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,OFRA,30,22,17,0,,,0,,95,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,PAST,3,5,3,0,,,0,,0,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,OFRA,90,40,30,0,,,0,,75,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,O. spp,42,20,30,0,,,0,,90,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,ALAM,5,3,2,0,,,0,,0,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,SSID,1,1,0.5,0,,,0,,5,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,CNAT,30,20,20,0,,,50,,50,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,OANN,32,26,42,0,,,0,,80,0,,,,,Bites,,,,,,,,,,,,Damselfish
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,OANN,130,50,70,0,,,10,,85,0,,,,,Bites,,,,,,,,,,,,Damselfish
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,PAST,10,5,4,0,,,5,,0,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Intermediate,I2,Permanent ,10,May G. and Natalie R.,PAST,6,5,3,0,,,7,,0,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Deep,D2,Permanent ,,Greg P. and Romina R.,OFRA,22.5,31.7,20.5,0,,,0,,0,0,,,,,,,,,,,,,,,,,15% DICT 
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Deep,D2,Permanent ,,Greg P. and Romina R.,PA,11,8,5,0,,,0,,100,0,,,,,,,,,,,,,,,,,30% DICT
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Deep,D2,Permanent ,,Greg P. and Romina R.,AL,49.5,45.5,28.5,0,,,0,,0,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Deep,D2,Permanent ,,Greg P. and Romina R.,AGSP,24.5,14,18.5,0,,,0,,0,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Deep,D2,Permanent ,,Greg P. and Romina R.,PA,5,4,0.5,0,,,0,,0,0,,,,,,,,,,,,,,,,,100% DICT 
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Deep,D2,Permanent ,,Greg P. and Romina R.,OFRA,8.5,8,7,0,,,0,,0,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Deep,D2,Permanent ,,Greg P. and Romina R.,PA,38,33,21,0,,,0,,30,0,,,,,,,,,,,,,,,,,Taken long way
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Shallow,S3,Permanent ,,Greg P. and Romina R.,PA,23,21,13,0,,,0,,50,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Shallow,S3,Permanent ,,Greg P. and Romina R.,OA,145,152,105,0,,,0,,40,2,,,,,,,,,,,,,,,,,50% DICT
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Shallow,S3,Permanent ,,Greg P. and Romina R.,OFAV,59,33,41,0,,,0,,0,0,,,,,,,,,,,,,,,,,40% Encrusting sponge 
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Shallow,S3,Permanent ,,Greg P. and Romina R.,SB,17,16,19,0,,,0,,0,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Shallow,S1,Permanent ,,"Adina, Savanna",OFRA,15,20,30,0,,,22,,40,40,,,,,,,,,,,,,,,,,Bleaching in spots
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Shallow,S1,Permanent ,,"Adina, Savanna",OFAV,2,2,5,0,,,10,,20,0,,,,,3 spot damsel fish,,,,,,,,,,,,Pale
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Shallow,S1,Permanent ,,"Adina, Savanna",OANN,60,70,25,0,,,20,,60,30,,,,,3 spot damsel fish & Shrimp,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Shallow,S1,Permanent ,,"Adina, Savanna",OANN,100,150,200,0,,,30,,60,10,,,,,,,,,,,,,,,,,bleach & lots of MACA
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Shallow,S1,Permanent ,,"Adina, Savanna",OX,200,300,600,0,,,20,,65,10,,,,,,,,,,,,,,,,,sponge & (Annularis (base) & franksi)
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Shallow,S1,Permanent ,,"Adina, Savanna",OANN,250,400,750,0,,,50,,45,5,,,,,damsel,,,,,,,,,,,,sponge
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Shallow,S1,Permanent ,,"Adina, Savanna",OANN,25,35,45,10,,,40,,20,10,,,,,damsel & shrimp,,,,,,,,,,,,sponge - disease in not starting from ridges
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Shallow,S1,Permanent ,,"Adina, Savanna",OANN,50,75,45,15,,,40,,20,70,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,Shallow,S1,Permanent ,,"Adina, Savanna",OFAV,45,80,35,0,,,30,,60,0,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,DEEP,D1,PERMANENT,14,Natalie Wride,OA,10,8,5,,,,30,,10,20,,,,,,,DICT,10,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,DEEP,D1,PERMANENT,14,Natalie Wride,OA,15,5,3,,,,,,20,,,,,,,,DICT,20,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,DEEP,D1,PERMANENT,14,Alexandria Tennant,MC,12,8,3,,,,,,40,,,,,,,,DICT,40,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,DEEP,D1,PERMANENT,14,Alexandria Tennant,DL,28,20,18,,,,,,100,,,,,,,,DICT,50,CYAN,5,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,DEEP,D1,PERMANENT,14,Alexandria Tennant,PBSP,15,10,12,,,,10,,50,,,,,,,,DICT,10,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,DEEP,D1,PERMANENT,14,Alexandria Tennant,OFRA,5,6,3,,,,,,10,,,,,,,,DICT,10,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,DEEP,D1,PERMANENT,14,Alexandria Tennant,PP,20,10,8,,,,,,35,,,,,,,,DICT,30,CYAN,5,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,DEEP,D1,PERMANENT,14,Alexandria Tennant,OFAV,10,8,3,,,,,,,,,,,,,,,,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,DEEP,D1,PERMANENT,14,Margo Boucetta,OA,60,30,40,,,,4,,25,,,,,,,,"DICT, VELON",15,,,,,ENSP,10,XMAS,10,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,DEEP,D1,PERMANENT,14,Margo Boucetta,OFAV,12,10,6,,,,,,,,,,,,,,,,,,,,,,,,purple rope sponge around colony
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,DEEP,D1,PERMANENT,14,Margo Boucetta,OA,5,4,5,,,,,,,,,,,,,,,,,,,,,,,,purple rope sponge along ridge of colony
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,SHALLOW,S2,PERMANENT,7,Margo Boucetta,OA,50,50,40,,,,,,80,,,,,,,,DICT,40,,,,,,,XMAS,5,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,SHALLOW,S2,PERMANENT,7,Margo Boucetta,OA,50,20,30,,,,,,30,,,,,,SNAIL,,DICT,30,,,,,,,"XMAS, URCHIN",5,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,SHALLOW,S2,PERMANENT,7,Alexandria Tennant,PA,15,10,16,,,,,,20,,,,,,,,DICT,20,,,,,,,,,20 fish
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,SHALLOW,S2,PERMANENT,7,Alexandria Tennant,PA,16,12,17,,,,,,20,,,,,,,,DICT,20,,,,,,,,,20 fish
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,SHALLOW,S2,PERMANENT,7,Alexandria Tennant,OFRA,10,3,7,,,,,,80,10,10,,,,,,DICT,30,,,,,,,,,
+2025,10,STT,10/29/2025,Brewers Bay Reef Edge MMES,SHALLOW,S2,PERMANENT,7,Alexandria Tennant,PA,20,13,30,20,,,,,30,20,,,,,,,DICT,20,,,,,,,,,

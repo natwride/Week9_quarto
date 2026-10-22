@@ -1,14 +1,86 @@
 ---
-title: "Quarto Doc"
-author: "Natalie Wride"
+title: "My Personal Quarto Cheat Sheet"
+author: Natalie Wride
+date: today
 format: html
 editor: visual
 toc: true
+number-sections: true
 theme: cosmo
 ---
-## First Quarto Project 
+# Section headers
+## Headers
+### Level 3 Header
+#### Level 4 
 
-## Quarto
+# Text formatting
+2+2+2 = `{r} 2+2+2`
+
+- Item 1
+- Item 2
+  - sub-item 1
+1. First
+2. Second
+    i) mini
+    ii) mini
+3. Third
+
+[Quarto Doc](https://quarto.org)
+
+# Tabset
+
+::: panel-tabset
+## Tab 1
+## Tab 2
+::: panel-tabset
+# Nest Tab1
+# Nest Tab2
+:::
+::: 
+
+# Another Panel
+
+::: panel-tabset
+
+## first tab
+first tab text
+
+## second tab
+
+:::: panel-tabset
+
+### first child
+sample text
+
+### second child
+second texting
+::::
+
+:::
+
+# Code Libraries
+do this under the yaml if bringing in any data since doc is ready top to bottom
+This means options syntax for the r code (#|)
+
+```{r}
+#| label: setup
+#| message: false
+#| warning: false
+#| echo: fenced
+
+library(tidyverse)
+library(knitr)
+
+# read in data
+# "my_data <- read_csv()"
+my_data <- mtcars
+thesis_data <- read_csv("../data/Scallop_Aquaculture_Field_Data_Sheet.csv")
+
+head(thesis_data)
+```
+
+
+# Quarto
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
